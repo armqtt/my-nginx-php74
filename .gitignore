@@ -1,7 +1,9 @@
 .idea/
-!docker-php74/databases/.gitkeep
 docker-php74/databases/*
+!docker-php74/databases/.gitkeep
+docker-php74/logs/nginx/*
 !docker-php74/logs/nginx/.gitkeep
+!docker-php74/logs/php/*
 !docker-php74/logs/php/.gitkeep
-docker-php74/logs/*
 htdocs/*
+!htdocs/index.php

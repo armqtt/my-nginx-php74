@@ -1,0 +1,7 @@
+[25-Jan-2021 07:59:40 UTC] PHP Fatal error:  Uncaught ReflectionException: Class Magento\Framework\App\ResourceConnection\Proxy does not exist in /var/www/htdocs/magento/lib/internal/Magento/Framework/Code/Reader/ClassReader.php:24
+Stack trace:
+#0 /var/www/htdocs/magento/lib/internal/Magento/Framework/Code/Reader/ClassReader.php(24): ReflectionClass->__construct('Magento\\Framewo...')
+#1 /var/www/htdocs/magento/lib/internal/Magento/Framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor('Magento\\Framewo...')
+#2 /var/www/htdocs/magento/lib/internal/Magento/Framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters('Magento\\Framewo...')
+#3 /var/www/htdocs/magento/lib/internal/Magento/Framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Framewo...')
+#4 /var/www/htdocs/magento/lib/internal/Magento/Framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framew in /var/www/htdocs/magento/lib/internal/Magento/Framework/Code/Reader/ClassReader.php on line 24
